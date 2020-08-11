@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd61ceee-b06f-4be5-8a43-2358ba30e9ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Extensions.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -9,13 +11,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/FunctionsKt$localfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/FunctionsKt$localfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/FunctionsKt$main$addNumbers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/FunctionsKt$main$addNumbers$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/FunctionsKt$main$message$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/FunctionsKt$main$message$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/FunctionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/FunctionsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/CollectionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/CollectionsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/kotlin-playground.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/kotlin-playground.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
@@ -101,6 +98,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="Kotlin.CollectionsKt">
     <configuration name="CollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -129,9 +127,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RangesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-playground.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="RangesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.CollectionsKt" />
+        <item itemvalue="Kotlin.RangesKt" />
         <item itemvalue="Kotlin.FunctionsKt" />
       </list>
     </recent_temporary>
@@ -154,21 +166,37 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="438" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.794@0.23.1440.794" timestamp="1595337713828" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1595899731081">
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom" timestamp="1595902387152">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1595899731081" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1595899731080">
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1595902387152" />
+    <state width="1398" height="243" key="GridCell.Tab.0.center" timestamp="1595902387151">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1595899731080" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1595899731079">
+    <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1595902387151" />
+    <state width="1398" height="243" key="GridCell.Tab.0.left" timestamp="1595902387151">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1595899731079" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1595899731080">
+    <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1595902387151" />
+    <state width="1398" height="243" key="GridCell.Tab.0.right" timestamp="1595902387151">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1595899731080" />
+    <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1595902387151" />
+    <state width="1398" height="243" key="GridCell.Tab.1.bottom" timestamp="1595902387152">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.23.1440.794@0.23.1440.794" timestamp="1595902387152" />
+    <state width="1398" height="243" key="GridCell.Tab.1.center" timestamp="1595902387152">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.1.center/0.23.1440.794@0.23.1440.794" timestamp="1595902387152" />
+    <state width="1398" height="243" key="GridCell.Tab.1.left" timestamp="1595902387152">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.1.left/0.23.1440.794@0.23.1440.794" timestamp="1595902387152" />
+    <state width="1398" height="243" key="GridCell.Tab.1.right" timestamp="1595902387152">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1398" height="243" key="GridCell.Tab.1.right/0.23.1440.794@0.23.1440.794" timestamp="1595902387152" />
   </component>
 </project>
