@@ -1,3 +1,5 @@
+package play
+
 fun main() {
     //collections in kotlin is a layer(Kotlin Std) on the top of Java collections
     //the only difference is you have mutable and immutable data structures

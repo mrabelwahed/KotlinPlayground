@@ -1,3 +1,7 @@
+package play
+
+import checkUserStatus
+import toUpper
 import kotlin.math.pow
 
 fun main() {
@@ -48,7 +52,7 @@ fun main() {
     println("ramadan".toUpper())
     //========== scoping functions ====================//
     // scoping functions are functions execute block of code on object
-    //the main difference is how this object will be available inside this block
+    //the play.main difference is how this object will be available inside this block
     // and the result of whole expression
     // let , Run, with ,apply,also
 
@@ -70,19 +74,19 @@ fun main() {
 
     //run is similar to let but it uses this instead of this
     //use it to initialize object and thern return it
-    Person("hash",12,"awish").run {
+    Person("hash", 12, "awish").run {
          println("det person ${this.name}")
     }
 
     //with
     //similar to run uses this also but run has easy manipulation for null check than
     // with
-   val person = with(Person("jack",23,"austria")){
+   val person = with(Person("jack", 23, "austria")){
        return@with "name is $name"
    }
     println(person)
 
-    var newPerson:Person? =  null
+    var newPerson: Person? =  null
     with(newPerson){
         this?.name = "uuu"
         this?.age = 30
